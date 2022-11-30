@@ -1,0 +1,44 @@
+:root {
+    --primari-brand-text-color:#4D5AE5;
+    --link-text-color:#4D5AE5;
+    --body-text-color:#434455;
+    --heading-text-color:#2E2F42;
+}
+body {
+    color:var(--body-text-color) ;
+    background-color: #fff;
+}
+.list { list-style: none;}
+.logo {
+    color:var(--primari-brand-text-color);
+}
+.logo-start {
+    color: var(--link-text-color);
+}
+.logo:hover {
+    color: var(--link-text-color);
+}
+
+/* Site nav */
+.site-nav .link{
+    color: var(--heading-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--link-text-color);
+}
+/* Hero */
+.hero-title {
+    color:  #FFFFFF;
+}
+.section-title {
+    color: #2E2F42;
+    ;
+}
+/* Преимущества */
+.feature-list {
+    color: #434455;
+}
+.title {
+    color: var(--heading-text-color);
+}
