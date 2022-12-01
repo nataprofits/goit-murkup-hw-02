@@ -1,16 +1,26 @@
 :root {
     --primari-brand-text-color:#4D5AE5;
+    --primari-bg-color:#fff;
     --link-text-color:#4D5AE5;
     --body-text-color:#434455;
     --heading-text-color:#2E2F42;
+    --buttons-color:404BBF;
+    --default-color:FFFFFF;
 }
 body {
     color:var(--body-text-color) ;
-    background-color: #fff;
+    background-color: var(--primari-bg-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
 }
 .list { list-style: none;}
 .logo {
-    color:var(--primari-brand-text-color);
+    color:var(--heading-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
 }
 .logo-start {
     color: var(--link-text-color);
@@ -41,4 +51,18 @@ body {
 }
 .title {
     color: var(--heading-text-color);
+}
+/* Button */
+.button{
+    color:var(--buttons-color) ;
+    background-color: var(--default-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.section {
+}
+.feature-list {
+}
+.title {
 }
