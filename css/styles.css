@@ -13,6 +13,13 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
 }
+.header {
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
 .list { list-style: none;}
 .logo {
     color:var(--heading-text-color);
@@ -37,6 +44,17 @@ body {
 .site-nav .link:focus {
     color: var(--link-text-color);
 }
+.auth-nav {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
+}
+.auth-nav .link:hover {
+    background-color: #E7E9FC;
+},
+.auth-nav .link:focus,
 /* Hero */
 .hero-title {
     color:  #FFFFFF;
@@ -59,10 +77,6 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    cursor: pointer;
 }
-.section {
-}
-.feature-list {
-}
-.title {
-}
+.button :hover {background-color: var(--link-text-color);}
