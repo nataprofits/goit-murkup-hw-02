@@ -12,6 +12,9 @@ body {
     background-color: var(--primari-bg-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .header {
 font-weight: 600;
@@ -45,7 +48,7 @@ letter-spacing: 0.02em;
     color: var(--link-text-color);
 }
 .auth-nav {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
