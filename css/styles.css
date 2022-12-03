@@ -31,8 +31,9 @@ letter-spacing: 0.02em;
     font-size: 20px;
     line-height: 1.33;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
-.logo-start {
+.accent {
     color: var(--link-text-color);
 }
 .logo:hover {
@@ -42,24 +43,31 @@ letter-spacing: 0.02em;
 /* Site nav */
 .site-nav .link{
     color: var(--heading-text-color);
+    text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--link-text-color);
+   color: var(--link-text-color);
 }
-.auth-nav {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--body-text-color);
+.auth-nav .link{
+  color: var(--body-text-color);
+    text-decoration: none;
 }
 .auth-nav .link:hover {
     background-color: #E7E9FC;
-},
-.auth-nav .link:focus,
+}
+.auth-nav .link:focus 
+
 /* Hero */
+.hero{background-color: #2E2F42;
+}
 .hero-title {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 56px;
+   line-height: 1.07;
+   text-align: center;
+   letter-spacing: 0.02em;
     color:  #FFFFFF;
 }
 .section-title {
@@ -73,6 +81,7 @@ letter-spacing: 0.02em;
 .title {
     color: var(--heading-text-color);
 }
+
 /* Button */
 .button{
     color:var(--buttons-color) ;
@@ -84,4 +93,24 @@ letter-spacing: 0.02em;
 }
 .button:hover {background-color: var(--link-text-color);
 color: var(--primari-bg-color);
+}
+.project-list .link {
+    text-decoration: none;
+}
+.logo-footer {
+    color:var(--primari-bg-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.foter-text {
+    position: absolute;
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 2421px;
+    color: #E7E9FC;
 }
