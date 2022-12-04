@@ -71,6 +71,18 @@ body {
    letter-spacing: 0.02em;
     color:  #FFFFFF;
 }
+.button-hero {
+    color:var(--primari-bg-color);
+    background-color: var(--link-text-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.button:hover {background-color: var(--link-text-color);
+color: var(--primari-bg-color);
+}
 .section-title {
     color: #2E2F42;
     ;
