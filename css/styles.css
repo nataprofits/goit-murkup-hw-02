@@ -16,13 +16,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
-.header {
-font-weight: 600;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-
 .list { list-style: none;}
 .logo {
     color:var(--heading-text-color);
@@ -42,6 +35,10 @@ letter-spacing: 0.02em;
 
 /* Site nav */
 .site-nav .link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--heading-text-color);
     text-decoration: none;
 }
@@ -57,6 +54,10 @@ letter-spacing: 0.02em;
     background-color: #E7E9FC;
 }
 .auth-nav .link:focus 
+.contact-link {
+    font-weight: 400;
+
+}
 
 /* Hero */
 .hero{background-color: #2E2F42;
@@ -78,9 +79,15 @@ letter-spacing: 0.02em;
 .feature-list {
     color: #434455;
 }
-.title {
+.feature-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
     color: var(--heading-text-color);
 }
+.feature-text
 
 /* Button */
 .button{
