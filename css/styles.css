@@ -148,20 +148,10 @@ color: var(--primari-bg-color);
     color: var(--heading-text-color);
     font-weight: 600;
     font-size: 20px;
-    line-height: 1.2;
-}
-.project-title:hover, 
-.project-title:focus {
-    color: var(--link-text-color);
-}
-.project-text {
-    color: var(--body-text-color);
-}
-.project-text:hover, 
-.project-text:focus {
-    color: var(--link-text-color);
-}
+    line-height: 1.2;}
 
+.project-text {color: var(--body-text-color);}
+   
 .logo-footer {
     color:var(--primari-bg-color);
     font-family: Raleway, sans-serif;
